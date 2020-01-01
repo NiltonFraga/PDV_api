@@ -1,0 +1,6 @@
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.csprojAssemblyReference.cache
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\staticwebassets\PDV_api.StaticWebAssets.Manifest.cache
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\staticwebassets\PDV_api.StaticWebAssets.xml
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.AssemblyInfoInputs.cache
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.AssemblyInfo.cs

@@ -1,0 +1,3 @@
+C:\Users\Nilton\source\repos\PDV_api\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Nilton\source\repos\PDV_api\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Nilton\source\repos\PDV_api\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
