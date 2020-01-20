@@ -4,3 +4,15 @@ C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.AssemblyInfoInputs.cache
 C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.AssemblyInfo.cs
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.exe
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.deps.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.runtimeconfig.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.runtimeconfig.dev.json
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.dll
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\bin\Debug\netcoreapp3.1\PDV_api.pdb
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.RazorTargetAssemblyInfo.cache
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.dll
+C:\Users\Nilton\source\repos\PDV_api\PDV_api\obj\Debug\netcoreapp3.1\PDV_api.pdb

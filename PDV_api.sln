@@ -7,10 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDV_api", "PDV_api\PDV_api.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{8FAEA0D6-5FD5-498D-AA21-7BDE44EC4FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{4626806F-EBCD-4EE9-A478-60235682BE3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{4626806F-EBCD-4EE9-A478-60235682BE3D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8FAEA0D6-5FD5-498D-AA21-7BDE44EC4FC7} = {8FAEA0D6-5FD5-498D-AA21-7BDE44EC4FC7}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{E42F23F4-5164-41EF-9DF5-81046862D2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{4626806F-EBCD-4EE9-A478-60235682BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4626806F-EBCD-4EE9-A478-60235682BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4626806F-EBCD-4EE9-A478-60235682BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42F23F4-5164-41EF-9DF5-81046862D2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42F23F4-5164-41EF-9DF5-81046862D2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42F23F4-5164-41EF-9DF5-81046862D2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42F23F4-5164-41EF-9DF5-81046862D2D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
