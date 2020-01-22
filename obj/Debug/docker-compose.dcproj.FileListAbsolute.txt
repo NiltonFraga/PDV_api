@@ -36,3 +36,41 @@ C:\Users\NiltonSA\Documents\_Projetos\PDV_api\bin\Debug\Application.pdb
 C:\Users\NiltonSA\Documents\_Projetos\PDV_api\bin\Debug\Domain.pdb
 C:\Users\NiltonSA\Documents\_Projetos\PDV_api\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\NiltonSA\Documents\_Projetos\PDV_api\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\appsettings.Development.json
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\appsettings.json
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Properties\launchSettings.json
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\PDV_api.exe
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\PDV_api.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\AutoMapper.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Infrastructure.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Application.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Domain.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Npgsql.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\PDV_api.pdb
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Infrastructure.pdb
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Application.pdb
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\bin\Debug\Domain.pdb
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\IovanSB\Documents\_Curso JS\PDV_api\obj\Debug\docker-compose.dcproj.CopyComplete

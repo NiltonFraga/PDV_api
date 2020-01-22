@@ -91,7 +91,7 @@ namespace PDV_api.Controllers
         [ProducesResponseType(typeof(ProblemDetails), 400)]
         public IActionResult RemoveSalesman(Guid id)
         {
-            var salesman = new Salesman(id);
+            var salesman = getByIdSalesman.GetById(id);
 
             removeSalesman.Remove(salesman);
 

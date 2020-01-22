@@ -7891,23 +7891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NiltonSA\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\IovanSB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj",
+      "projectUniqueName": "C:\\Users\\IovanSB\\Documents\\_Curso JS\\PDV_api\\PDV_api\\PDV_api.csproj",
       "projectName": "PDV_api",
-      "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj",
-      "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\obj\\",
+      "projectPath": "C:\\Users\\IovanSB\\Documents\\_Curso JS\\PDV_api\\PDV_api\\PDV_api.csproj",
+      "packagesPath": "C:\\Users\\IovanSB\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IovanSB\\Documents\\_Curso JS\\PDV_api\\PDV_api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IovanSB\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7920,8 +7916,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\IovanSB\\Documents\\_Curso JS\\PDV_api\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\IovanSB\\Documents\\_Curso JS\\PDV_api\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

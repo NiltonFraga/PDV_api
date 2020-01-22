@@ -47,7 +47,7 @@ namespace Infrastructure.Repository
         {
             using (var context = new ApplicationContext())
             {
-                context.Remove(salesman);
+                context.Remove(mapper.Map<EntitySalesman>(salesman));
                 return context.SaveChanges();
             }
         }

@@ -11,20 +11,19 @@ services:
         com.microsoft.visual-studio.project-name: "PDV_api"
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\NiltonSA\Documents\_Projetos\PDV_api\PDV_api:/app
-      - C:\Users\NiltonSA\Documents\_Projetos\PDV_api:/src
-      - C:\Users\NiltonSA\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\NiltonSA\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+      - C:\Users\IovanSB\Documents\_Curso JS\PDV_api\PDV_api:/app
+      - C:\Users\IovanSB\Documents\_Curso JS\PDV_api:/src
+      - C:\Users\IovanSB\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\IovanSB\.nuget\packages\:/root/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"bin/Debug/netcoreapp3.1/PDV_api.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"bin/Debug/netcoreapp3.1/PDV_api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
