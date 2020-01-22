@@ -12,13 +12,13 @@ namespace Domain.Saller
         public DateTime Seller { get; private set; }
         public decimal TotalSale { get; private set; }
 
-        public Saller(List<Product.Product> product, Person.Person person, Salesman.Salesman salesman, DateTime seller, decimal totalSale)
+        public Saller(List<Product.Product> product, Person.Person person, Salesman.Salesman salesman, decimal totalSale)
         {
             Id = Guid.NewGuid();
             Product = product;
             Person = person;
             Salesman = salesman;
-            Seller = seller;
+            Seller = DateTime.Now;
             TotalSale = totalSale;
         }
     }

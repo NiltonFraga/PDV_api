@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
-      },
-      "PDV_api/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/PDV_api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PDV_api.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -32,39 +19,32 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
-    },
-    "PDV_api/1.0.0": {
-      "type": "project",
-      "path": "../PDV_api/PDV_api.csproj",
-      "msbuildProject": "../PDV_api/PDV_api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Domain >= 1.0.0",
-      "PDV_api >= 1.0.0"
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nilton\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\NiltonSA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Nilton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Application\\obj\\",
+      "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -76,11 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Domain\\Domain.csproj"
-            },
-            "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj": {
-              "projectPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj"
+            "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj"
             }
           }
         }
@@ -104,14 +81,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

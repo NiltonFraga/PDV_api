@@ -1,25 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj": {}
+    "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj": {
+    "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj",
-        "projectName": "PDV_api",
-        "projectPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\PDV_api.csproj",
-        "packagesPath": "C:\\Users\\Nilton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\PDV_api\\obj\\",
+        "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,6 +110,82 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Application\\Application.csproj"
+              },
+              "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
@@ -59,7 +193,87 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj",
+        "projectName": "PDV_api",
+        "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\PDV_api.csproj",
+        "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\PDV_api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,25 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Nilton\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\NiltonSA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Nilton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nilton\\source\\repos\\PDV_api\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\NiltonSA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NiltonSA\\Documents\\_Projetos\\PDV_api\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\NiltonSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -63,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
