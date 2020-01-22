@@ -40,7 +40,7 @@ services:
     networks:
       api_network: {}
     ports:
-    - published: 8000
+    - published: 8001
       target: 80
     tty: true
     volumes:
