@@ -2,6 +2,7 @@
 using AutoMapper;
 using Domain.Saller;
 using Infrastructure.Context;
+using Infrastructure.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,16 +31,26 @@ namespace Infrastructure.Repository
         {
             using (var context = new ApplicationContext())
             {
-                return mapper.Map<List<Saller>>(context.Sallers.ToList());
+                var listSaller = context.Sallers.ToList();
+
+                foreach(var saller in listSaller)
+                {
+                    saller.Person = GetPerson(saller.PersonId);
+                }
+
+                return mapper.Map<List<Saller>>(listSaller);
             }
         }
 
         public Saller GetById(Guid id)
         {
-            using (var context = new ApplicationContext())
-            {
-                return mapper.Map<Saller>(context.Sallers.Find(id));
-            }
+            using var context = new ApplicationContext();
+
+            var saller = context.Sallers.Find(id);
+
+            saller.Person = GetPerson(saller.PersonId);
+
+            return mapper.Map<Saller>(context.Sallers.Find(id));
         }
 
         public int Remove(Saller saller)
@@ -58,6 +69,16 @@ namespace Infrastructure.Repository
                 context.Update(saller);
                 return context.SaveChanges();
             }
+        }
+
+        private EntityPerson GetPerson(Guid id)
+        {
+            using var context = new ApplicationContext();
+
+            if (context.PhysicalPersons.Any(x => x.Id == id))
+                return context.PhysicalPersons.Find(id);
+
+            return context.LegalPersons.Find(id);
         }
     }
 }

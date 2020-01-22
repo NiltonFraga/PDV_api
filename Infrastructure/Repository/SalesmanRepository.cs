@@ -2,6 +2,7 @@
 using AutoMapper;
 using Domain.Salesman;
 using Infrastructure.Context;
+using Infrastructure.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace Infrastructure.Repository
         {
             using (var context = new ApplicationContext())
             {
-                context.Add(salesman);
+                context.Add(mapper.Map<EntitySalesman>(salesman));
                 return context.SaveChanges();
             }
         }

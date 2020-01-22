@@ -9,12 +9,14 @@ using Application.UseCase.Salesman.GetById;
 using Application.UseCase.Salesman.Remove;
 using Application.UseCase.Salesman.Update;
 using AutoMapper;
+using Infrastructure.Context;
 using Infrastructure.Mapping;
 using Infrastructure.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -56,17 +58,19 @@ namespace PDV_api
             });
 
             IMapper mapper = config.CreateMapper();
-
             services.AddSingleton(mapper);
+
+            ApplicationContext context = new ApplicationContext();
+            context.Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            /*if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
+            }*/
 
             app.UseSwagger();
 
@@ -75,11 +79,11 @@ namespace PDV_api
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
-            app.UseHttpsRedirection();
+            /*app.UseHttpsRedirection();*/
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            /*app.UseAuthorization();*/
 
             app.UseEndpoints(endpoints =>
             {

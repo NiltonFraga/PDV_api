@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    pdv_api:
+        image: ${DOCKER_REGISTRY-}pdvapi
+        build:
+            context: .
+            dockerfile: PDV_api/Dockerfile
+        networks: 
+            - api_network
+volumes:
+    banco:
+
+networks:
+    api_network:
+        

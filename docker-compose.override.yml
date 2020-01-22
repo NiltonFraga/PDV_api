@@ -1,0 +1,30 @@
+version: '3.7'
+
+volumes:
+    banco:
+
+networks:
+    api_network:
+
+services:   
+    pdv_api:
+        environment:
+            ASPNETCORE_ENVIRONMENT: Development
+        ports:
+          - "8001:80"
+        networks:
+          - api_network
+
+    db-postgres:
+        image: postgres
+        restart: always
+        container_name: db-postgres
+        environment:
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-1234567}
+            POSTGRES_USER: ${POSTGRES_USER:-postgres}
+        ports:
+            - 5432:5432
+        volumes:
+            - banco:/var/lib/postgresql/data
+        networks:
+            - api_network 

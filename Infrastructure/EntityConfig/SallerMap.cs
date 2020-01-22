@@ -12,18 +12,13 @@ namespace Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<EntitySaller> builder)
         {
-            builder.ToTable("Saller", "API");
+            builder.ToTable("Saller");
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Product)
-                .IsRequired();
+            builder.HasMany(x => x.Product);
 
-            builder.Property(x => x.Person)
-                .IsRequired();
-
-            builder.Property(x => x.Salesman)
-                .IsRequired();
+            builder.HasOne(x => x.Salesman);
 
             builder.Property(x => x.TotalSale)
                 .IsRequired();

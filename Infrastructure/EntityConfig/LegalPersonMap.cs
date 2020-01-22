@@ -12,16 +12,16 @@ namespace Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<EntityLegalPerson> builder)
         {
-            builder.ToTable("LegalPerson", "PDV");
+            builder.ToTable("LegalPerson");
+
+            builder.Property(x => x.CorporateName)
+                .IsRequired()
+                .HasMaxLength(70);
 
             builder.HasKey(x => x.Id);
 
             builder.HasIndex(x => x.Document)
                 .IsUnique();
-
-            builder.Property(x => x.CorporateName)
-                .IsRequired()
-                .HasMaxLength(70);
 
             builder.Property(x => x.Name)
                 .IsRequired()
@@ -30,7 +30,7 @@ namespace Infrastructure.EntityConfig
             builder.Property(x => x.Address)
                 .IsRequired()
                 .HasMaxLength(100);
-                
+
             builder.Property(x => x.Phone)
                 .IsRequired()
                 .HasMaxLength(11);
@@ -38,6 +38,7 @@ namespace Infrastructure.EntityConfig
             builder.Property(x => x.Email)
                 .IsRequired()
                 .HasMaxLength(60);
+
         }
     }
 }

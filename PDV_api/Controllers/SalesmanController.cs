@@ -61,5 +61,42 @@ namespace PDV_api.Controllers
             return new OkObjectResult(salesman);
         }
 
+        [HttpPost]
+        [Route("GetByIdSalesman")]
+        [ProducesResponseType(typeof(Guid), 200)]
+        [ProducesResponseType(typeof(ProblemDetails), 400)]
+        public IActionResult GetByIdSalesman(Guid id)
+        {
+            var salesman = getByIdSalesman.GetById(id);
+
+            return new OkObjectResult(salesman);
+        }
+
+        [HttpPut]
+        [Route("UpdateSalesman")]
+        [ProducesResponseType(typeof(Guid), 200)]
+        [ProducesResponseType(typeof(ProblemDetails), 400)]
+        public IActionResult UpdateSalesman(Guid id, string name, string phone, string email)
+        {
+            var salesman = new Salesman(id, name, phone, email);
+
+            updateSalesman.Update(salesman);
+
+            return new OkObjectResult(salesman);
+        }
+
+        [HttpDelete]
+        [Route("RemoveSalesman")]
+        [ProducesResponseType(typeof(Guid), 200)]
+        [ProducesResponseType(typeof(ProblemDetails), 400)]
+        public IActionResult RemoveSalesman(Guid id)
+        {
+            var salesman = new Salesman(id);
+
+            removeSalesman.Remove(salesman);
+
+            return new OkObjectResult(salesman);
+        }
+
     }
 }

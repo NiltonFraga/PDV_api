@@ -1,0 +1,56 @@
+networks:
+  api_network: {}
+services:
+  db-postgres:
+    container_name: db-postgres
+    environment:
+      POSTGRES_PASSWORD: '1234567'
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      api_network: {}
+    ports:
+    - published: 5432
+      target: 5432
+    restart: always
+    volumes:
+    - banco:/var/lib/postgresql/data:rw
+  pdv_api:
+    build:
+      context: C:\Users\NiltonSA\Documents\_Projetos\PDV_api
+      dockerfile: PDV_api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: PDV_api
+      target: base
+    container_name: PDV_api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: pdvapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp3.1/PDV_api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      api_network: {}
+    ports:
+    - published: 8000
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\NiltonSA\Documents\_Projetos\PDV_api\PDV_api:/app:rw
+    - C:\Users\NiltonSA\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\NiltonSA\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\NiltonSA\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\NiltonSA\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\NiltonSA\Documents\_Projetos\PDV_api:/src:rw
+version: '3.7'
+volumes:
+  banco: {}

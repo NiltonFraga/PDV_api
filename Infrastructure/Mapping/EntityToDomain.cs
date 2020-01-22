@@ -25,8 +25,6 @@ namespace Infrastructure.Mapping
             CreateMap<EntitySalesman, Salesman>().ReverseMap();
 
             CreateMap<EntityProduct, Product>().ReverseMap();
-
-            CreateMap<EntitySaller, Saller>().ReverseMap();
         }
     }
 }

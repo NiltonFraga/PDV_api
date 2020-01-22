@@ -11,7 +11,7 @@ namespace Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<EntitySalesman> builder)
         {
-            builder.ToTable("Salerman", "API");
+            builder.ToTable("Salerman");
 
             builder.HasKey(x => x.Id);
 

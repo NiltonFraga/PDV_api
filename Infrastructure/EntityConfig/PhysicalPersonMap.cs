@@ -12,7 +12,9 @@ namespace Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<EntityPhysicalPerson> builder)
         {
-            builder.ToTable("PhysicalPerson", "PDV");
+            builder.ToTable("PhysicalPerson");
+
+            builder.Property(x => x.Birthday).IsRequired();
 
             builder.HasKey(x => x.Id);
 

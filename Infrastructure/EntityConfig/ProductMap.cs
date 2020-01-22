@@ -12,7 +12,7 @@ namespace Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<EntityProduct> builder)
         {
-            builder.ToTable("Product", "PDV");
+            builder.ToTable("Product");
 
             builder.HasKey(x => x.Id);
 

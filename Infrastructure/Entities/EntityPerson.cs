@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Infrastructure.Entities
 {
-    public abstract class EntityPerson
+    public class EntityPerson
     {
-        public Guid Id { get; protected set; }
-        public string Name { get; protected set; }
-        public string Address { get; protected set; }
-        public string Phone { get; protected set; }
-        public string Email { get; protected set; }
-        public string Document { get; protected set; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
+        public string Document { get; set; }
     }
 }

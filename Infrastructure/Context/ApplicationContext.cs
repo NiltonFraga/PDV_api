@@ -19,11 +19,11 @@ namespace Infrastructure.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<EntityLegalPerson>(new LegalPersonMap().Configure);
-            modelBuilder.Entity<EntityPhysicalPerson>(new PhysicalPersonMap().Configure);
-            modelBuilder.Entity<EntityProduct>(new ProductMap().Configure);
-            modelBuilder.Entity<EntitySalesman>(new SalesmanMap().Configure);
-            modelBuilder.Entity<EntitySaller>(new SallerMap().Configure);
+            modelBuilder.ApplyConfiguration(new LegalPersonMap());
+            modelBuilder.ApplyConfiguration(new PhysicalPersonMap());
+            modelBuilder.ApplyConfiguration(new ProductMap());
+            modelBuilder.ApplyConfiguration(new SalesmanMap());
+            modelBuilder.ApplyConfiguration(new SallerMap());
 
             modelBuilder.Entity<EntitySalesman>().HasData(
                 new EntitySalesman()
