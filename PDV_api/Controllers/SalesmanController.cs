@@ -43,11 +43,11 @@ namespace PDV_api.Controllers
         [ProducesResponseType(typeof(ProblemDetails), 400)]
         public IActionResult CreateSalesman(string name, string phone, string email)
         {
-            var Salesman = new Salesman(name, phone, email);
+            var SALESMAN = new Salesman(name, phone, email);
 
-            addSalesman.Add(Salesman);
+            addSalesman.Add(SALESMAN);
 
-            return new OkObjectResult(Salesman);
+            return new OkObjectResult(SALESMAN);
         }
 
         [HttpPost]
