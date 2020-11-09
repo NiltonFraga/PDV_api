@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\PDV_api\\Application\\Application.csproj": {}
+    "D:\\Global Web\\PDV_api\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\PDV_api\\Application\\Application.csproj": {
+    "D:\\Global Web\\PDV_api\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\PDV_api\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Global Web\\PDV_api\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Projetos\\PDV_api\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Nilton\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\PDV_api\\Application\\obj\\",
+        "projectPath": "D:\\Global Web\\PDV_api\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "D:\\Global Web\\PDV_api\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\PDV_api\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos\\PDV_api\\Domain\\Domain.csproj"
+              "D:\\Global Web\\PDV_api\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Global Web\\PDV_api\\Domain\\Domain.csproj"
               }
             }
           }
@@ -60,26 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\PDV_api\\Domain\\Domain.csproj": {
+    "D:\\Global Web\\PDV_api\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\PDV_api\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Global Web\\PDV_api\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Projetos\\PDV_api\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Nilton\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\PDV_api\\Domain\\obj\\",
+        "projectPath": "D:\\Global Web\\PDV_api\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "D:\\Global Web\\PDV_api\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -116,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

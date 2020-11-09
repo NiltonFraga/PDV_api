@@ -17,7 +17,7 @@ services:
     - banco:/var/lib/postgresql/data:rw
   pdv_api:
     build:
-      context: C:\Users\NiltonSA\Documents\_Projetos\PDV_api
+      context: D:\Global Web\PDV_api
       dockerfile: PDV_api/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

@@ -41,9 +41,9 @@ namespace PDV_api.Controllers
         [Route("CreateSalesman")]
         [ProducesResponseType(typeof(Guid), 200)]
         [ProducesResponseType(typeof(ProblemDetails), 400)]
-        public IActionResult CreateSalesman(string name, string phone, string email)
+        public IActionResult CreateSalesman(string Name, string phone, string email)
         {
-            var Salesman = new Salesman(name, phone, email);
+            var Salesman = new Salesman(Name, phone, email);
 
             addSalesman.Add(Salesman);
 
